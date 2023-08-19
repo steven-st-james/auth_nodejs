@@ -1,0 +1,19 @@
+POST http://localhost:8000/sign-up
+Content-Type: application/json
+
+{
+    "firstName": "Joe",
+    "lastName": "Rogen",
+    "email": "jrogen@rogen.com",
+    "password": "1234546"
+}
+
+###
+
+POST http://localhost:8000/log-in
+Content-Type: application/json
+
+{
+    "email": "jrogen@rogen.com",
+    "password": "1234546"
+}
